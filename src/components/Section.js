@@ -5,7 +5,7 @@ import Fade from 'react-reveal/Fade';
 function Section({title, description, backgroundImg, leftBtnText, rightBtnText}) {
 
     return (
-        <Wrap bgImage={backgroundImg}>
+        <Wrap style={{ backgroundImage: `url(${backgroundImg})`}} >
         <Fade bottom>
             <ItemText>
                 <b><h1>{title}</h1></b>
