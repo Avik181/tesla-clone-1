@@ -42,12 +42,12 @@ const Wrap = styled.div`
  background-size: cover;
  background-position: center;
  background-repeat: no-repeat;
- background-image: url('/images/model-s.jpg');
+ background-image: url('https://tesla-cdn.thron.com/delivery/public/image/tesla/32e5e0f3-5c04-42ef-8f8f-c6b1c26f8a9e/bvlatuR/std/2880x1800/ms-main-hero-desktop');
  display: flex;
  flex-direction: column;
  justify-content: space-between;
  align-items: center;
- background-image: ${props => `url("/images/${props.bgImage}")` }
+//  background-image: ${props => `url("/images/${props.bgImage}")` }
 `
 
 const ItemText = styled.div`
